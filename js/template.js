@@ -5,10 +5,18 @@ catch(err) { app = angular.module("myApp", []); }
 app.run(["$templateCache", function($templateCache) {
 "use strict";
 
-$templateCache.put("home.html","\n" +
+$templateCache.put("frontend.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
+    "    <h1>Front-End Development</h1>\n" +
+    "\n" +
+    "    <p>Frontend text here</p>\n" +
+    "</div>")
+
+$templateCache.put("home.html","\n" +
+    "\n" +
+    "<div class=\"paper home\">\n" +
     "    <p>Hi, my name is Andrew Jones, and I'm what you'd call a jack-of-all-trades web developer. I've been doing this professionally for the past 20 years.</p>\n" +
     "\n" +
     "    <p>My specialty is frontend development, but I've done a lot of back-end work with PHP and mySQL.</p>\n" +

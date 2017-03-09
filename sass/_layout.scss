@@ -6,12 +6,45 @@
 .paper {
     background: #f6f3df url('../img/bkg-paper-lines.png') no-repeat left top;;
     box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
-    padding: 150px 100px 100px 100px;
+    padding: 107px 100px 100px 100px;
     position: absolute;
     left: 180px;
     top: 91px;
-    width: 911px;
-    height: 1092px;
-    transform: rotate(5deg);
+    width: 845px;
+    height: 1020px;
+    transform: rotate(3deg);
     z-index: 20;
+
+    &.home {
+        padding-top: 133px;
+    }
 }
+
+nav {
+    position: absolute;
+    left: 22px;
+    top: 275px;
+
+    a {
+        background-color: $color-secondary;
+        color: $color-nav;
+        display: block;
+        font-size: 20px;
+        margin-bottom: 13px;
+        max-height: 45px;
+        padding: 12px 0 12px 15px;
+        text-decoration: none;
+        width: 200px;
+
+        &:visited {
+            color: $color-nav;
+        }
+
+        &.active,
+        &:focus {
+            background-color: #da9537;
+            color: #FFF;
+        }
+    }
+}
+

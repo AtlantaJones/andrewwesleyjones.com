@@ -1,26 +1,10 @@
 
 
-// ----- Variable overrides for Bootstrap and other libraries ----- //
-//@import "libs/vendor_overrides";
-
-
-//$global-width: 62.5rem;
 @import '../node_modules/foundation-sites/scss/foundation';
-
-//@import '../../../../node_modules/foundation-sites/dist/css/foundation.css';
-//@include foundation-everything;
 @include foundation-flex-classes;
 @include foundation-flex-grid;
-//@include foundation-visibility-classes;
-//@include foundation-menu;
-//@include foundation-menu-icon;
-//@include foundation-dropdown;
-//@include foundation-dropdown-menu;
-//@include foundation-top-bar;
-//@include foundation-accordion-menu;
-//@include foundation-title-bar;
 
-
+@import 'font-awesome.min';
 @import 'settings';
 @import 'base';
 @import 'layout';
@@ -32,7 +16,7 @@
     box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
 
     position: absolute;
-    left: -12px;
+    left: 10px;
     top: 693px;
     width: 183px;
     height: 184px;
@@ -44,5 +28,19 @@
     left: 90px;
     top: 80px;
     z-index: 100;
+}
+
+.icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 65px;
+    top: 561px;
+
+    a {
+        color: #7e5535;
+        font-size: 52px;
+    }
 }
 

@@ -55,6 +55,9 @@ gulp.task('scripts', function() {
         'node_modules/angular/angular.min.js',
         'node_modules/angular-ui-router/release/angular-ui-router.min.js',
         'node_modules/angular-animate/angular-animate.min.js',
+        'node_modules/jquery/dist/jquery.min.js',
+        'js/vendor/velocity.min.js',
+        'js/vendor/velocity.ui.min.js',
         'js/main.js',
 
         // Angular Controllers
