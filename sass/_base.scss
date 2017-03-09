@@ -1,0 +1,52 @@
+// -------------------------------------
+//   Base
+// -------------------------------------
+// ----- Base-level tags (body, p, etc.)
+// -------------------------------------
+
+html {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #FFF url('../img/background.jpg') no-repeat center top;
+    background-size: contain;
+    color: $color-primary;
+    font-size: 22px;
+    @include default-font;
+    position: relative;
+}
+
+h1, h2, h3, h4 {
+    @include bold-font;
+}
+
+a {
+    color: $color-secondary;
+    text-decoration: underline;
+}
+
+a:focus,
+a:visited {
+    color: $color-secondary;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+
+}
+

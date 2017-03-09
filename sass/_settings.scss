@@ -1,0 +1,37 @@
+// -------------------------------------
+//   Settings
+// -------------------------------------
+// ----- @Font-Face Declarations, Variables
+// -------------------------------------
+
+// -------------------------------------
+//   @font-face
+// -------------------------------------
+
+
+// -------------------------------------
+//   Variables
+// -------------------------------------
+
+// ----- Colors ----- //
+
+$color-primary: #724828;
+$color-secondary: #bf432d;
+
+// ----- Type ----- //
+
+@mixin default-font {
+    font-family: "museo-sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin bold-font {
+    font-family: "museo-sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+// ----- Grid ----- //

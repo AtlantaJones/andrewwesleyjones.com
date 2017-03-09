@@ -1,0 +1,17 @@
+
+.wrapper {
+    position: relative;
+}
+
+.paper {
+    background: #f6f3df url('../img/bkg-paper-lines.png') no-repeat left top;;
+    box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
+    padding: 150px 100px 100px 100px;
+    position: absolute;
+    left: 180px;
+    top: 91px;
+    width: 911px;
+    height: 1092px;
+    transform: rotate(5deg);
+    z-index: 20;
+}
