@@ -17,10 +17,14 @@ $global-width: 1140px;
 
     position: absolute;
     left: -12px;
-    top: 665px;
+    top: 635px;
     width: 18.5%;
     height: auto;
     z-index: 100;
+
+    @include breakpoint(large up) {
+        top: 665px;
+    }
 }
 
 .logo {
@@ -49,6 +53,6 @@ $global-width: 1140px;
     }
 
     @include breakpoint(large up) {
-
+        right: 2.3%;
     }
 }

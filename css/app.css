@@ -3237,10 +3237,13 @@ nav {
     color: #fbdc46;
     display: block;
     font-size: 20px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     max-height: 45px;
     padding: 12px 0 12px 15px;
     text-decoration: none; }
+    @media screen and (min-width: 64em) {
+      nav a {
+        margin-bottom: 13px; } }
     nav a:visited {
       color: #fbdc46; }
     nav a.active, nav a:focus {
@@ -3253,10 +3256,13 @@ nav {
   box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
   position: absolute;
   left: -12px;
-  top: 665px;
+  top: 635px;
   width: 18.5%;
   height: auto;
   z-index: 100; }
+  @media screen and (min-width: 64em) {
+    .avatar {
+      top: 665px; } }
 
 .logo {
   position: absolute;
@@ -3278,3 +3284,6 @@ nav {
   .icons a {
     color: #7e5535;
     font-size: 52px; }
+  @media screen and (min-width: 64em) {
+    .icons {
+      right: 2.3%; } }

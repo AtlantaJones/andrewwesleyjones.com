@@ -36,10 +36,14 @@ nav {
         color: $color-nav;
         display: block;
         font-size: 20px;
-        margin-bottom: 13px;
+        margin-bottom: 10px;
         max-height: 45px;
         padding: 12px 0 12px 15px;
         text-decoration: none;
+
+        @include breakpoint(large up) {
+            margin-bottom: 13px;
+        }
 
         &:visited {
             color: $color-nav;
