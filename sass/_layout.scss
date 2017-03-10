@@ -1,7 +1,11 @@
 
 .wrapper {
-    background: #FFF url('../img/background.jpg') no-repeat center top;
     position: relative;
+}
+
+.wrapper-bg {
+    //background: #FFF url('../img/background.jpg') no-repeat center top;
+    //background-size: cover;
 }
 
 .paper {
@@ -9,19 +13,27 @@
     box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
     padding: 10%;
     margin-top: 50px;
-    min-height: 1020px;
+
     transform: rotate(3deg);
     z-index: 20;
 
     &.home {
         padding-top: 17%;
     }
+
+    //@media screen and (min-width: 1024px) {
+    //    min-height: 1020px;
+    //}
+
+    @include breakpoint(medium up) {
+        min-height: 1020px;
+    }
 }
 
 nav {
     position: absolute;
     left: 0;
-    top: 275px;
+    top: 240px;
     width: 225px;
 
     a {

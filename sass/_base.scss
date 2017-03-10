@@ -20,13 +20,22 @@ body, html {
 }
 
 body {
-    background-color: #fff;
-    background-size: contain;
+    background: #FFF url('../img/background.jpg') no-repeat center top;
+    background-size: cover;
     color: $color-primary;
     font-size: 22px;
-    margin-top: 25px;
+
     @include default-font;
     position: relative;
+
+    @include breakpoint(medium up) {
+        background-size: inherit;
+    }
+
+    @include breakpoint(large up) {
+        margin-top: 25px;
+    }
+
 }
 
 h1, h2, h3, h4 {

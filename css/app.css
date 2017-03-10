@@ -3169,15 +3169,20 @@ body, html {
   height: 100%; }
 
 body {
-  background-color: #fff;
-  background-size: contain;
+  background: #FFF url("../img/background.jpg") no-repeat center top;
+  background-size: cover;
   color: #724828;
   font-size: 22px;
-  margin-top: 25px;
   font-family: "museo-sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
   position: relative; }
+  @media screen and (min-width: 40em) {
+    body {
+      background-size: inherit; } }
+  @media screen and (min-width: 64em) {
+    body {
+      margin-top: 25px; } }
 
 h1, h2, h3, h4 {
   font-family: "museo-sans", Arial, sans-serif;
@@ -3200,7 +3205,6 @@ p {
   padding-bottom: 18px; }
 
 .wrapper {
-  background: #FFF url("../img/background.jpg") no-repeat center top;
   position: relative; }
 
 .paper {
@@ -3208,18 +3212,20 @@ p {
   box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
   padding: 10%;
   margin-top: 50px;
-  min-height: 1020px;
   -webkit-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
   transform: rotate(3deg);
   z-index: 20; }
   .paper.home {
     padding-top: 17%; }
+  @media screen and (min-width: 40em) {
+    .paper {
+      min-height: 1020px; } }
 
 nav {
   position: absolute;
   left: 0;
-  top: 275px;
+  top: 240px;
   width: 225px; }
   nav a {
     background-color: #bf432d;
@@ -3242,16 +3248,19 @@ nav {
   box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
   position: absolute;
   left: -12px;
-  top: 693px;
+  top: 665px;
   width: 18.5%;
   height: auto;
   z-index: 100; }
 
 .logo {
   position: absolute;
-  left: 55px;
+  left: 7px;
   top: 55px;
   z-index: 100; }
+  @media screen and (min-width: 64em) {
+    .logo {
+      left: 55px; } }
 
 .icons {
   list-style: none;
