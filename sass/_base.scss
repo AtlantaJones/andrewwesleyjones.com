@@ -20,10 +20,11 @@ body, html {
 }
 
 body {
-    background: #FFF url('../img/background.jpg') no-repeat center top;
+    background-color: #fff;
     background-size: contain;
     color: $color-primary;
     font-size: 22px;
+    margin-top: 25px;
     @include default-font;
     position: relative;
 }

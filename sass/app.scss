@@ -1,5 +1,5 @@
 
-
+$global-width: 1140px;
 @import '../node_modules/foundation-sites/scss/foundation';
 @include foundation-flex-classes;
 @include foundation-flex-grid;
@@ -16,17 +16,17 @@
     box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
 
     position: absolute;
-    left: 10px;
+    left: -12px;
     top: 693px;
-    width: 183px;
-    height: 184px;
+    width: 18.5%;
+    height: auto;
     z-index: 100;
 }
 
 .logo {
     position: absolute;
-    left: 90px;
-    top: 80px;
+    left: 55px;
+    top: 55px;
     z-index: 100;
 }
 
@@ -35,12 +35,12 @@
     margin: 0;
     padding: 0;
     position: absolute;
-    right: 65px;
-    top: 561px;
+    left: 92.5%;
+    top: 550px;
+    text-align: center;
 
     a {
         color: #7e5535;
         font-size: 52px;
     }
 }
-

@@ -144,7 +144,7 @@
     order: 6; } }
 
 .row {
-  max-width: 75rem;
+  max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
   display: -webkit-box;
@@ -3169,10 +3169,11 @@ body, html {
   height: 100%; }
 
 body {
-  background: #FFF url("../img/background.jpg") no-repeat center top;
+  background-color: #fff;
   background-size: contain;
   color: #724828;
   font-size: 22px;
+  margin-top: 25px;
   font-family: "museo-sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -3199,28 +3200,27 @@ p {
   padding-bottom: 18px; }
 
 .wrapper {
+  background: #FFF url("../img/background.jpg") no-repeat center top;
   position: relative; }
 
 .paper {
   background: #f6f3df url("../img/bkg-paper-lines.png") no-repeat left top;
   box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
-  padding: 107px 100px 100px 100px;
-  position: absolute;
-  left: 180px;
-  top: 91px;
-  width: 845px;
-  height: 1020px;
+  padding: 10%;
+  margin-top: 50px;
+  min-height: 1020px;
   -webkit-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
   transform: rotate(3deg);
   z-index: 20; }
   .paper.home {
-    padding-top: 133px; }
+    padding-top: 17%; }
 
 nav {
   position: absolute;
-  left: 22px;
-  top: 275px; }
+  left: 0;
+  top: 275px;
+  width: 225px; }
   nav a {
     background-color: #bf432d;
     color: #fbdc46;
@@ -3229,8 +3229,7 @@ nav {
     margin-bottom: 13px;
     max-height: 45px;
     padding: 12px 0 12px 15px;
-    text-decoration: none;
-    width: 200px; }
+    text-decoration: none; }
     nav a:visited {
       color: #fbdc46; }
     nav a.active, nav a:focus {
@@ -3242,16 +3241,16 @@ nav {
   border: 7px solid #bd9258;
   box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
   position: absolute;
-  left: 10px;
+  left: -12px;
   top: 693px;
-  width: 183px;
-  height: 184px;
+  width: 18.5%;
+  height: auto;
   z-index: 100; }
 
 .logo {
   position: absolute;
-  left: 90px;
-  top: 80px;
+  left: 55px;
+  top: 55px;
   z-index: 100; }
 
 .icons {
@@ -3259,8 +3258,9 @@ nav {
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 65px;
-  top: 561px; }
+  left: 92.5%;
+  top: 550px;
+  text-align: center; }
   .icons a {
     color: #7e5535;
     font-size: 52px; }
