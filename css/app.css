@@ -3163,6 +3163,7 @@ html {
   box-sizing: inherit; }
 
 body, html {
+  font-size: 16px;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -3172,7 +3173,7 @@ body {
   background: #FFF url("../img/background.jpg") no-repeat center top;
   background-size: cover;
   color: #724828;
-  font-size: 22px;
+  font-size: 1.375rem;
   font-family: "museo-sans", Arial, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -3182,12 +3183,13 @@ body {
       background-size: inherit; } }
   @media screen and (min-width: 64em) {
     body {
-      margin-top: 25px; } }
+      background-position-y: 25px; } }
 
 h1, h2, h3, h4 {
   font-family: "museo-sans", Arial, sans-serif;
   font-style: normal;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 2rem; }
 
 a {
   color: #bf432d;
@@ -3206,11 +3208,14 @@ p {
 
 .wrapper {
   position: relative; }
+  @media screen and (min-width: 64em) {
+    .wrapper {
+      margin-top: 25px; } }
 
 .paper {
   background: #f6f3df url("../img/bkg-paper-lines.png") no-repeat left top;
   box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
-  padding: 10%;
+  padding: 8vh 10% 10% 10%;
   margin-top: 50px;
   -webkit-transform: rotate(3deg);
   -ms-transform: rotate(3deg);
@@ -3267,8 +3272,8 @@ nav {
   margin: 0;
   padding: 0;
   position: absolute;
-  left: 92.5%;
-  top: 550px;
+  right: 1.3%;
+  top: 38vh;
   text-align: center; }
   .icons a {
     color: #7e5535;

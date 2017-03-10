@@ -39,12 +39,16 @@ $global-width: 1140px;
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 92.5%;
-    top: 550px;
+    right: 1.3%;
+    top: 38vh;
     text-align: center;
 
     a {
         color: #7e5535;
         font-size: 52px;
+    }
+
+    @include breakpoint(large up) {
+
     }
 }

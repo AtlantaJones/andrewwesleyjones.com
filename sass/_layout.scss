@@ -1,17 +1,16 @@
 
 .wrapper {
     position: relative;
-}
 
-.wrapper-bg {
-    //background: #FFF url('../img/background.jpg') no-repeat center top;
-    //background-size: cover;
+    @include breakpoint(large up) {
+        margin-top: 25px;
+    }
 }
 
 .paper {
     background: #f6f3df url('../img/bkg-paper-lines.png') no-repeat left top;;
     box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
-    padding: 10%;
+    padding: 8vh 10% 10% 10%;
     margin-top: 50px;
 
     transform: rotate(3deg);
@@ -20,10 +19,6 @@
     &.home {
         padding-top: 17%;
     }
-
-    //@media screen and (min-width: 1024px) {
-    //    min-height: 1020px;
-    //}
 
     @include breakpoint(medium up) {
         min-height: 1020px;
