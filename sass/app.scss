@@ -36,10 +36,10 @@ $global-width: 1140px;
 
 .logo {
     position: absolute;
-    left: 70px;
+    left: 19vw;
     top: 18px;
     z-index: 100;
-    width: 275px;
+    width: 260px;
 
     @include breakpoint(medium up) {
         left: 18px;
@@ -78,12 +78,16 @@ $global-width: 1140px;
         @include breakpoint(medium up) {
             float: none;
         }
+
+        &:last-child a {
+            margin-right: 0;
+        }
     }
 
     a {
         color: #7e5535;
-        font-size: 44px;
-        margin-right: 9px;
+        font-size: 40px;
+        margin-right: 8px;
 
         @include breakpoint(medium up) {
             float: none;
