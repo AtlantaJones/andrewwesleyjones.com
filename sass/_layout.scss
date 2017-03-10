@@ -9,10 +9,12 @@
 
 .paper {
     background: #f6f3df url('../img/bkg-paper-lines.png') no-repeat left top;;
-    box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
+    box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
     padding: 8vh 10% 0 10%;
     margin-top: 50px;
     min-height: 81vh;
+    position: static;
+    width: 100%;
     z-index: 20;
 
     &.home {
@@ -21,6 +23,7 @@
 
     @include breakpoint(medium up) {
         min-height: 1020px;
+        position: absolute;
         transform: rotate(3deg);
     }
 }
@@ -34,9 +37,13 @@ nav {
     z-index: 1000;
 
     @include breakpoint(medium up) {
-        display: block;
+        // compensate for Velocity animations
+        // changing menu display on larger sizes
+        display: block !important;
+        opacity: 1 !important;
+        transform: translateX(0) !important;
         top: 240px;
-        z-index: 10;
+        z-index: 0;
     }
 
     a {

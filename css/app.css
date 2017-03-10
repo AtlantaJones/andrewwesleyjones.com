@@ -3214,16 +3214,19 @@ p {
 
 .paper {
   background: #f6f3df url("../img/bkg-paper-lines.png") no-repeat left top;
-  box-shadow: 3.5px 6.062px 5px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
   padding: 8vh 10% 0 10%;
   margin-top: 50px;
   min-height: 81vh;
+  position: static;
+  width: 100%;
   z-index: 20; }
   .paper.home {
     padding-top: 17%; }
   @media screen and (min-width: 40em) {
     .paper {
       min-height: 1020px;
+      position: absolute;
       -webkit-transform: rotate(3deg);
       -ms-transform: rotate(3deg);
       transform: rotate(3deg); } }
@@ -3237,9 +3240,13 @@ nav {
   z-index: 1000; }
   @media screen and (min-width: 40em) {
     nav {
-      display: block;
+      display: block !important;
+      opacity: 1 !important;
+      -webkit-transform: translateX(0) !important;
+      -ms-transform: translateX(0) !important;
+      transform: translateX(0) !important;
       top: 240px;
-      z-index: 10; } }
+      z-index: 0; } }
   nav a {
     background-color: #bf432d;
     color: #fbdc46;
@@ -3301,20 +3308,30 @@ nav {
   width: 275px; }
   @media screen and (min-width: 40em) {
     .logo {
-      top: 55px;
+      left: 18px;
+      top: 18px;
       width: auto; } }
   @media screen and (min-width: 64em) {
     .logo {
-      left: 55px; } }
+      left: 55px;
+      top: 37px; } }
 
 .icons {
   list-style: none;
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 1.3%;
+  left: 13px;
   top: 102%;
   text-align: center; }
+  @media screen and (min-width: 40em) {
+    .icons {
+      left: inherit;
+      right: 1.3%;
+      top: 40vh; } }
+  @media screen and (min-width: 64em) {
+    .icons {
+      right: 2.3%; } }
   .icons li {
     float: left; }
     @media screen and (min-width: 40em) {
@@ -3322,14 +3339,11 @@ nav {
         float: none; } }
   .icons a {
     color: #7e5535;
-    font-size: 48px;
-    margin-right: 10px; }
+    font-size: 44px;
+    margin-right: 9px; }
     @media screen and (min-width: 40em) {
       .icons a {
         float: none;
         font-size: 52px;
         margin-right: 0;
         top: 38vh; } }
-  @media screen and (min-width: 64em) {
-    .icons {
-      right: 2.3%; } }
