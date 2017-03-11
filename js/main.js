@@ -32,6 +32,11 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'pages/words.html'
         })
 
+        .state('illustration', {
+            url: '/illustration',
+            templateUrl: 'pages/illustration.html'
+        })
+
         .state('contact', {
             url: '/contact',
             templateUrl: 'pages/contact.html'

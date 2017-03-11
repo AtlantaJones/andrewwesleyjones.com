@@ -3223,7 +3223,7 @@ ul {
 .paper {
   background: #f6f3df url("../img/bkg-paper-lines.png") no-repeat left top;
   box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
-  padding: 8vh 10% 0 10%;
+  padding: 8vh 10% 5px 10%;
   margin-top: 50px;
   min-height: 81vh;
   position: static;
@@ -3257,7 +3257,7 @@ nav {
       -webkit-transform: translateX(0) !important;
       -ms-transform: translateX(0) !important;
       transform: translateX(0) !important;
-      top: 240px;
+      top: 196px;
       z-index: 0; } }
   nav a {
     background-color: #bf432d;
@@ -3273,9 +3273,6 @@ nav {
       nav a {
         border-bottom: none;
         margin-bottom: 10px; } }
-    @media screen and (min-width: 64em) {
-      nav a {
-        margin-bottom: 13px; } }
     nav a:visited {
       color: #fbdc46; }
     nav a.active, nav a:focus {

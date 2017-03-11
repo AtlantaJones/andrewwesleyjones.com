@@ -445,6 +445,11 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'pages/words.html'
         })
 
+        .state('illustration', {
+            url: '/illustration',
+            templateUrl: 'pages/illustration.html'
+        })
+
         .state('contact', {
             url: '/contact',
             templateUrl: 'pages/contact.html'
@@ -595,7 +600,21 @@ $templateCache.put("home.html","\n" +
     "\n" +
     "    <p>Click around to see my skillset and select projects.</p>\n" +
     "\n" +
-    "    <p>Or <a href=\"\">click here</a> to download a PDF resume.</p>\n" +
+    "    <p>Or <a href=\"pdf/Andrew_Jones_Resume-2017.pdf\" target=\"_blank\">click here</a> to download a PDF resume.</p>\n" +
+    "</div>")
+
+$templateCache.put("illustration.html","\n" +
+    "\n" +
+    "<div class=\"paper\">\n" +
+    "\n" +
+    "    <h1>Illustration</h1>\n" +
+    "\n" +
+    "    <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
+    "\n" +
+    "    <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
+    "    avatars to paintings to full-size movie posters, and always looking for a new artistic challenge</p>\n" +
+    "\n" +
+    "    <p><a href=\"https://www.behance.net/atlantajones\" target=\"_blank\">See the most up-to-date illustration portfolio here.</a></p>\n" +
     "</div>")
 
 $templateCache.put("projects.html","\n" +
