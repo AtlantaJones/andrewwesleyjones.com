@@ -42,6 +42,10 @@ h1, h2, h3, h4 {
     font-size: 2rem;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 a {
     color: $color-secondary;
     text-decoration: underline;
@@ -61,7 +65,11 @@ p {
     padding-bottom: 25px;
     margin: 0;
 
-    @include breakpoint(medium up) {
+    .home & {
         padding-bottom: 35px;
     }
+}
+
+ul {
+    margin-top: 0;
 }

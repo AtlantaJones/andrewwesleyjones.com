@@ -25,6 +25,10 @@
         min-height: 1020px;
         position: absolute;
         transform: rotate(3deg);
+
+        &.straight {
+            transform: rotate(0);
+        }
     }
 }
 

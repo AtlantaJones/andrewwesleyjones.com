@@ -3190,6 +3190,9 @@ h1, h2, h3, h4 {
   font-weight: 700;
   font-size: 2rem; }
 
+h2 {
+  font-size: 1.5rem; }
+
 a {
   color: #bf432d;
   text-decoration: underline; }
@@ -3205,9 +3208,11 @@ p {
   line-height: 1.4;
   padding-bottom: 25px;
   margin: 0; }
-  @media screen and (min-width: 40em) {
-    p {
-      padding-bottom: 35px; } }
+  .home p {
+    padding-bottom: 35px; }
+
+ul {
+  margin-top: 0; }
 
 .wrapper {
   position: relative; }
@@ -3232,7 +3237,11 @@ p {
       position: absolute;
       -webkit-transform: rotate(3deg);
       -ms-transform: rotate(3deg);
-      transform: rotate(3deg); } }
+      transform: rotate(3deg); }
+      .paper.straight {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0); } }
 
 nav {
   display: none;

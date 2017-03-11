@@ -17,7 +17,25 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'pages/frontend.html'
         })
 
+        .state('backend', {
+            url: '/backend',
+            templateUrl: 'pages/backend.html'
+        })
 
+        .state('projects', {
+            url: '/projects',
+            templateUrl: 'pages/projects.html'
+        })
+
+        .state('words', {
+            url: '/words',
+            templateUrl: 'pages/words.html'
+        })
+
+        .state('contact', {
+            url: '/contact',
+            templateUrl: 'pages/contact.html'
+        })
 
 });
 
