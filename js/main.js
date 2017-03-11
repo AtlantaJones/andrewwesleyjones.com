@@ -48,7 +48,6 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
 myApp.animation('.page-container', [function() {
     return {
         enter: function(element, doneFn) {
-            console.log('enter');
 
                 $(element).velocity("transition.slideRightIn", {
                     complete: function() {
@@ -62,11 +61,10 @@ myApp.animation('.page-container', [function() {
         },
 
         move: function(element, doneFn) {
-            console.log('move');
+
         },
 
         leave: function(element, doneFn) {
-            console.log('leave');
             $(element).velocity('transition.slideLeftOut', {
                 complete: doneFn,
                 duration: 200

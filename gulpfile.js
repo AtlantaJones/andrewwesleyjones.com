@@ -14,9 +14,11 @@ var connect      = require('gulp-connect');
 
 
 var paths = {
-    pages: ['index.html'],
+    html: ['index.html'],
+    pages: ['pages/**/*.html'],
+    pdf: ['pdf/**/*.pdf'],
     images: ['img/*.png','img/**/*.jpg','img/**/*.gif','img/**/*.svg'],
-    fonts: ['fonts/**/*.eot', 'fonts/**/*.svg', 'fonts/**/*.ttf'],
+    fonts: ['fonts/**/*.eot', 'fonts/**/*.svg', 'fonts/**/*.ttf', 'fonts/**/*.woff', 'fonts/**/*.woff2'],
     scripts: ['js/app.js'],
     styles: ['css/app.css']
 };
@@ -85,11 +87,11 @@ gulp.task('scripts', function() {
 
 
 // build for distribution
-gulp.task('build', ['scripts', 'sass', 'sprite', 'clean'], function() {
+gulp.task('build', ['scripts', 'sass', 'clean'], function() {
 
     // minify js
     gulp.src(paths.scripts)
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(gulp.dest('dist/js'));
 
     // minify css
@@ -101,9 +103,17 @@ gulp.task('build', ['scripts', 'sass', 'sprite', 'clean'], function() {
     gulp.src(paths.pages)
         .pipe(gulp.dest('dist/pages'));
 
+    // copy html
+    gulp.src(paths.html)
+        .pipe(gulp.dest('dist'));
+
     // copy fonts
     gulp.src(paths.fonts)
         .pipe(gulp.dest('dist/fonts'));
+
+    // copy pdfs
+    gulp.src(paths.pdf)
+        .pipe(gulp.dest('dist/pdf'));
 
     // copy images (but not sprite source files)
     gulp.src(paths.images)
