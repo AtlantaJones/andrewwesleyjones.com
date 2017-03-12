@@ -75,7 +75,7 @@ gulp.task('scripts', function() {
 
 
         // Angular Templates
-        'js/template.js'
+        'js/template.js',
 
     ])
     // concatenate and save
@@ -140,12 +140,10 @@ gulp.task('server', function() {
 
 gulp.task('ngtemplates', function() {
     gulp.src('pages/*.html')
-        .pipe(html2js('angular.js', {
+        .pipe(html2js('template.js', {
             adapter: 'angular',
-            base: 'pages',
-            name: 'myApp',
+            name: 'myApp.templates',
             useStrict: true
         }))
-        .pipe(concat('template.js'))
         .pipe(gulp.dest('js'))
 });

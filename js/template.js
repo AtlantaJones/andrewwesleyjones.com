@@ -1,11 +1,11 @@
 //HEAD 
 (function(app) {
-try { app = angular.module("myApp"); }
-catch(err) { app = angular.module("myApp", []); }
+try { app = angular.module("myApp.templates"); }
+catch(err) { app = angular.module("myApp.templates", []); }
 app.run(["$templateCache", function($templateCache) {
 "use strict";
 
-$templateCache.put("backend.html","\n" +
+$templateCache.put("pages/backend.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
@@ -14,20 +14,19 @@ $templateCache.put("backend.html","\n" +
     "    <p>I've been working with PHP and mySQL since about 2001. And in 2004, I built my own content management\n" +
     "        system and honed it for many years. While I was running my own freelance shop full-time, I put\n" +
     "        nearly all my clients on it, some of which are still enjoying to this day. The CMS was a wonderful learning\n" +
-    "        platform and it instilled in me the love of building software.</p>\n" +
+    "        platform and it instilled in me the love of building software, and by extension, making work easier for the people that use it.</p>\n" +
     "\n" +
     "    <p>During most of 2010, I did a lot of back-end development in support of Facebook applications. My\n" +
     "        framework of choice at that time was CodeIgniter, but I've since started building apps with\n" +
-    "        Laravel. I've also become skilled at building sites with Drupal 7, including those with RESTful web\n" +
-    "        services. And I've also begun building smaller sites with Wordpress, coupled with the Timber framework. </p>\n" +
+    "        Laravel. I'm also experienced at building sites with Drupal 7, including those with RESTful web\n" +
+    "        services that serve separate front-ends. I also build smaller sites with Wordpress, coupled with the Timber framework for custom theming.</p>\n" +
     "\n" +
-    "    <p>Later in 2017, I'll be building a new web app aimed at cartoonists and comic artists. Called\n" +
-    "        <a href=\"http://OpenForCommissions.com\" target=\"_blank\">OpenForCommissions.com</a>, it will be a new\n" +
-    "        platform for artists to more easily announce, sell, track and deliver art commissions to customers. This tool\n" +
-    "        will also likely be built on Laravel and Angular</p>\n" +
+    "    <p>One of my upcoming personal projects will be a couple tools aimed at artists, to make it easier to list and\n" +
+    "    sell custom commissions, as well as a web app to make managing reference photos easier. These will likely be made\n" +
+    "    with a combination of Laravel and Angular. </p>\n" +
     "</div>")
 
-$templateCache.put("contact.html","\n" +
+$templateCache.put("pages/contact.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
@@ -41,37 +40,37 @@ $templateCache.put("contact.html","\n" +
     "\n" +
     "</div>")
 
-$templateCache.put("frontend.html","\n" +
+$templateCache.put("pages/frontend.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
     "    <h1>Front-End Development</h1>\n" +
     "\n" +
     "    <p>To me, frontend development (HTML, CSS, JavaScript) is more about solving problems than anything else.\n" +
-    "        Some developers are about placing constraints on designers, trying to keep designs boxed into something\n" +
-    "        they can easily build. Their first answer is often \"no\". I prefer to start with a great design and\n" +
-    "        figure out interesting solutions to the problems they pose.</p>\n" +
+    "        I love getting my hands on a great design and figuring out interesting solutions for making them living, breathing sites and web apps.</p>\n" +
     "\n" +
     "    <p>I was previously a frontend dev at <a href=\"http://bignerdranch.com\" target=\"_blank\">Big Nerd Ranch</a>\n" +
     "        building web apps with HTML5, CSS3 and JavaScript. I worked on various projects, focusing on the visual\n" +
-    "        UI side of frontend, responsive design, etc. I'm also skilled with jQuery, LESS and Sass, plus frameworks\n" +
+    "        UI side of frontend, responsive design, etc. I'm also skilled with jQuery, Sass and Angular, plus UI frameworks\n" +
     "        like Zurb Foundation and Bootstrap.</p>\n" +
     "\n" +
     "    <p>I also wrote <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several blog\n" +
-    "        articles</a> for Big Nerd Ranch and contribute chapters to our upcoming book on HTML5 web apps. I was also\n" +
+    "        articles</a> for Big Nerd Ranch and contributed chapters to their book on HTML5 web apps. I was also\n" +
     "        a contributor to their Mobile Design course, in addition to being BNR's designated expert in the area of web\n" +
     "        accessibility.</p>\n" +
     "\n" +
     "    <p>Most recently, I was senior frontend developer for MoZeus Worldwide, where I built interactive experiential\n" +
-    "        web apps for Fortune 500 companies. I led and mentored a team of frontend developers, facilitated team meetings\n" +
-    "        and in-house training sessions. I also did a lot of R&D work to develop new techniques for delivering\n" +
+    "        web apps for Fortune 500 companies. I led and mentored a team of frontend developers, facilitated team collaboration\n" +
+    "        and in-house training sessions. I also did a lot of R&D work to develop techniques for delivering\n" +
     "        new and unique customer experiences.</p>\n" +
     "\n" +
     "    <p>I also do (very) occasional speaking, most recently at CSS Summit 2016,\n" +
     "        where I gave <a href=\"https://www.slideshare.net/AtlantaJones/adventures-in-atomic-design\" target=\"_blank\">a talk on Atomic Design.</a></p>\n" +
+    "\n" +
+    "    <p>See more on my talks and writings <a ui-sref=\"words\">here</a>.</p>\n" +
     "</div>")
 
-$templateCache.put("home.html","\n" +
+$templateCache.put("pages/home.html","\n" +
     "\n" +
     "<div class=\"paper home\">\n" +
     "    <p>Hi, my name is Andrew Jones, and I'm what you'd call a jack-of-all-trades web developer. I've been doing this professionally for the past 20 years.</p>\n" +
@@ -85,7 +84,7 @@ $templateCache.put("home.html","\n" +
     "    <p>Or <a href=\"pdf/Andrew_Jones_Resume-2017.pdf\" target=\"_blank\">click here</a> to download a PDF resume.</p>\n" +
     "</div>")
 
-$templateCache.put("illustration.html","\n" +
+$templateCache.put("pages/illustration.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
@@ -94,18 +93,18 @@ $templateCache.put("illustration.html","\n" +
     "    <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
     "\n" +
     "    <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
-    "    avatars to paintings to full-size movie posters, and always looking for a new artistic challenge</p>\n" +
+    "    avatars to paintings to full-size movie posters, and I'm always looking for a new artistic challenge</p>\n" +
     "\n" +
     "    <p><a href=\"https://www.behance.net/atlantajones\" target=\"_blank\">See the most up-to-date illustration portfolio here.</a></p>\n" +
     "</div>")
 
-$templateCache.put("projects.html","\n" +
+$templateCache.put("pages/projects.html","\n" +
     "\n" +
     "<div class=\"paper straight\">\n" +
     "\n" +
     "    <h1>Web Dev Projects</h1>\n" +
     "\n" +
-    "    <p>Unfortunately, most of the work I've done the past few years have either been under strict NDA, or are no longer online. But here's some recent stuff I'm proud of.</p>\n" +
+    "    <p>A lot of the work I've done the past few years have either been under strict NDA, or are no longer online. But here's some recent stuff I'm proud of.</p>\n" +
     "\n" +
     "    <h2><a href=\"http://peoplesbanktheatre.com/\" target=\"_blank\">Peoples Bank Theatre Website</a></h2>\n" +
     "    <p>I've been working with a group dedicated to renovating and reopening this 1919 theatre since 1997. As they\n" +
@@ -124,7 +123,7 @@ $templateCache.put("projects.html","\n" +
     "    <p>This is an HTML5 web app that runs from the home screen on iPads in every Fleming's Steakhouse across the country.</p>\n" +
     "    <p>A single-page app running AngularJS, WiNEPAD is optimized for performance and can run completely offline, thanks\n" +
     "        to localstorage and the HTML5 application cache.</p>\n" +
-    "    <p>I also built and maintain the Drupal-based CMS that acts as an API for serving wine, cocktail and other data, customized\n" +
+    "    <p>I also built and maintained the Drupal-based CMS that acts as an API for serving wine, cocktail and other data, customized\n" +
     "        to each restaurant location.</p>\n" +
     "\n" +
     "    <h2><a href=\"http://www.tcarms.com/\" target=\"_blank\">TC Arms Responsive Site</a></h2>\n" +
@@ -164,7 +163,7 @@ $templateCache.put("projects.html","\n" +
     "\n" +
     "</div>")
 
-$templateCache.put("words.html","\n" +
+$templateCache.put("pages/words.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +

@@ -1,5 +1,5 @@
 
-var myApp = angular.module('myApp', ['ui.router', 'ngAnimate']);
+var myApp = angular.module('myApp', ['myApp.templates', 'ui.router', 'ngAnimate']);
 
 myApp.config(function($stateProvider, $urlRouterProvider) {
 
@@ -61,7 +61,7 @@ myApp.animation('.page-container', [function() {
         },
 
         move: function(element, doneFn) {
-
+            doneFn();
         },
 
         leave: function(element, doneFn) {

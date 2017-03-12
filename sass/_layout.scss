@@ -7,10 +7,14 @@
     }
 }
 
+.page-container {
+    transform: translateX(0px);
+}
+
 .paper {
     background: #f6f3df url('../img/bkg-paper-lines.png') no-repeat left top;;
     box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
-    padding: 8vh 10% 5px 10%;
+    padding: 8vh 5% 5px 5%;
     margin-top: 50px;
     min-height: 81vh;
     position: static;
