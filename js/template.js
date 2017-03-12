@@ -90,12 +90,24 @@ $templateCache.put("pages/illustration.html","\n" +
     "\n" +
     "    <h1>Illustration</h1>\n" +
     "\n" +
-    "    <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
+    "<div class=\"row\">\n" +
+    "    <div class=\"column small-12 medium-8\">\n" +
     "\n" +
-    "    <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
-    "    avatars to paintings to full-size movie posters, and I'm always looking for a new artistic challenge</p>\n" +
+    "        <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
     "\n" +
-    "    <p><a href=\"https://www.behance.net/atlantajones\" target=\"_blank\">See the most up-to-date illustration portfolio here.</a></p>\n" +
+    "        <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
+    "            avatars to paintings to full-size movie posters, and I'm always looking for a new artistic challenge</p>\n" +
+    "\n" +
+    "        <p><a href=\"https://www.behance.net/atlantajones\" target=\"_blank\">See the most up-to-date illustration portfolio here.</a></p>\n" +
+    "    </div>\n" +
+    "\n" +
+    "    <div class=\"column small-12 medium-4\">\n" +
+    "        <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348137/Resume/art-olaf.jpg\" alt=\"Count Olaf Digital Painting\">\n" +
+    "        <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348136/Resume/art-arcadia.jpg\" alt=\"Arcade movie poster\">\n" +
+    "        <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348136/Resume/art-lyle.jpg\" alt=\"Mr Lyle from Penny Dreadful\">\n" +
+    "    </div>\n" +
+    "    \n" +
+    "</div>\n" +
     "</div>")
 
 $templateCache.put("pages/projects.html","\n" +

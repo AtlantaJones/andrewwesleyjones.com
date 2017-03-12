@@ -3170,7 +3170,7 @@ body, html {
   height: 100%; }
 
 body {
-  background: #FFF url("../img/background.jpg") no-repeat center top;
+  background: #FFF url("http://res.cloudinary.com/firebox/image/upload/q_70/v1489348292/Resume/background.jpg") no-repeat center top;
   color: #724828;
   font-size: 1.25rem;
   font-family: "museo-sans", Arial, sans-serif;
@@ -3226,7 +3226,7 @@ ul {
   transform: translateX(0px); }
 
 .paper {
-  background: #f6f3df url("../img/bkg-paper-lines.png") no-repeat left top;
+  background: #f6f3df url("http://res.cloudinary.com/firebox/image/upload/v1489348136/Resume/bkg-paper-lines.png") no-repeat left top;
   box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
   padding: 8vh 5% 5px 5%;
   margin-top: 50px;
@@ -3363,3 +3363,6 @@ nav {
         font-size: 52px;
         margin-right: 0;
         top: 38vh; } }
+
+.thumbnail {
+  max-width: 100%; }
