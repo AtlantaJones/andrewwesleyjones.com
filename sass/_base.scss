@@ -29,10 +29,11 @@ body {
     position: relative;
 
     @include breakpoint(medium up) {
-        font-size: 1.375rem;
+        font-size: 1.12rem;
     }
 
     @include breakpoint(large up) {
+        font-size: 1.375rem;
         background-position-y: 25px;
     }
 }
@@ -40,10 +41,17 @@ body {
 h1, h2, h3, h4 {
     @include bold-font;
     font-size: 2rem;
+    margin-top: 0;
 }
 
 h2 {
     font-size: 1.5rem;
+}
+
+h3  {
+    color: #506a63;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #506a63;
 }
 
 a {
@@ -66,7 +74,9 @@ p {
     margin: 0;
 
     .home & {
-        padding-bottom: 35px;
+        @include breakpoint(medium up) {
+            padding-bottom: 35px;
+        }
     }
 }
 

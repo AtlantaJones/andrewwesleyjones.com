@@ -48,8 +48,8 @@ $global-width: 1140px;
     }
 
     @include breakpoint(large up) {
-        left: 55px;
-        top: 37px;
+        //left: 55px;
+        top: 32px;
     }
 }
 
@@ -100,4 +100,27 @@ $global-width: 1140px;
 
 .thumbnail {
     max-width: 100%;
+}
+
+.tricks {
+    margin-bottom: 15px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        background-color: rgba(80, 106, 99, .4);
+        border-radius: 5px;
+        color: #fff;
+        display: block;
+        flex: 1;
+        font-size: 1rem;
+        margin: 0 7px 7px 0;
+        padding: 5px 10px;
+    }
 }

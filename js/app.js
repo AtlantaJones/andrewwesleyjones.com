@@ -525,21 +525,44 @@ $templateCache.put("pages/backend.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
+    "<div class=\"row align-justify\">\n" +
     "    <h1>Back-End Development</h1>\n" +
     "\n" +
-    "    <p>I've been working with PHP and mySQL since about 2001. And in 2004, I built my own content management\n" +
-    "        system and honed it for many years. While I was running my own freelance shop full-time, I put\n" +
-    "        nearly all my clients on it, some of which are still enjoying to this day. The CMS was a wonderful learning\n" +
-    "        platform and it instilled in me the love of building software, and by extension, making work easier for the people that use it.</p>\n" +
+    "    <div class=\"column small-12 medium-9 large-8\">\n" +
+    "        <p>I've been working with PHP and mySQL since about 2001. And in 2004, I built my own content management\n" +
+    "            system and honed it for many years. While I was running my own freelance shop full-time, I put\n" +
+    "            nearly all my clients on it, some of which are still enjoying to this day. The CMS was a wonderful learning\n" +
+    "            platform and it instilled in me the love of building software, and by extension, making work easier for the people that use it.</p>\n" +
     "\n" +
-    "    <p>During most of 2010, I did a lot of back-end development in support of Facebook applications. My\n" +
-    "        framework of choice at that time was CodeIgniter, but I've since started building apps with\n" +
-    "        Laravel. I'm also experienced at building sites with Drupal 7, including those with RESTful web\n" +
-    "        services that serve separate front-ends. I also build smaller sites with Wordpress, coupled with the Timber framework for custom theming.</p>\n" +
+    "        <p>During most of 2010, I did a lot of back-end development in support of Facebook applications. My\n" +
+    "            framework of choice at that time was CodeIgniter, but I've since started building apps with\n" +
+    "            Laravel. I'm also experienced at building sites with Drupal 7, including those with RESTful web\n" +
+    "            services that serve separate front-ends. I also build smaller sites with Wordpress, coupled with the Timber framework for custom theming.</p>\n" +
     "\n" +
-    "    <p>One of my upcoming personal projects will be a couple tools aimed at artists, to make it easier to list and\n" +
-    "    sell custom commissions, as well as a web app to make managing reference photos easier. These will likely be made\n" +
-    "    with a combination of Laravel and Angular. </p>\n" +
+    "        <p>One of my upcoming personal projects will be a couple tools aimed at artists, to make it easier to list and\n" +
+    "            sell custom commissions, as well as a web app to make managing reference photos easier. These will likely be made\n" +
+    "            with a combination of Laravel and Angular. </p>\n" +
+    "    </div>\n" +
+    "\n" +
+    "\n" +
+    "    <div class=\"small-12 medium-3\">\n" +
+    "        <div class=\"tricks\">\n" +
+    "            <h3>Bag of Tricks</h3>\n" +
+    "            <ul>\n" +
+    "                <li>PHP</li>\n" +
+    "                <li>mySQL</li>\n" +
+    "                <li>Laravel</li>\n" +
+    "                <li>Wordpress</li>\n" +
+    "                <li>Drupal 7</li>\n" +
+    "                <li>PHPStorm</li>\n" +
+    "                <li>Git</li>\n" +
+    "            </ul>\n" +
+    "        </div>\n" +
+    "    </div>\n" +
+    "</div>\n" +
+    "\n" +
+    "\n" +
+    "\n" +
     "</div>")
 
 $templateCache.put("pages/contact.html","\n" +
@@ -560,36 +583,61 @@ $templateCache.put("pages/frontend.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
-    "    <h1>Front-End Development</h1>\n" +
+    "    <div class=\"row align-justify\">\n" +
+    "        <h1>Front-End Development</h1>\n" +
     "\n" +
-    "    <p>To me, frontend development (HTML, CSS, JavaScript) is more about solving problems than anything else.\n" +
-    "        I love getting my hands on a great design and figuring out interesting solutions for making them living, breathing sites and web apps.</p>\n" +
+    "        <div class=\"column small-12 medium-9 large-8\">\n" +
+    "            <p>To me, frontend development (HTML, CSS, JavaScript) is more about solving problems than anything else.\n" +
+    "                I love getting my hands on a great design and figuring out interesting solutions for making them living, breathing sites and web apps.</p>\n" +
     "\n" +
-    "    <p>I was previously a frontend dev at <a href=\"http://bignerdranch.com\" target=\"_blank\">Big Nerd Ranch</a>\n" +
-    "        building web apps with HTML5, CSS3 and JavaScript. I worked on various projects, focusing on the visual\n" +
-    "        UI side of frontend, responsive design, etc. I'm also skilled with jQuery, Sass and Angular, plus UI frameworks\n" +
-    "        like Zurb Foundation and Bootstrap.</p>\n" +
+    "            <p>I was previously a frontend dev at <a href=\"http://bignerdranch.com\" target=\"_blank\">Big Nerd Ranch</a>\n" +
+    "                building web apps with HTML5, CSS3 and JavaScript. I worked on various projects, focusing on the visual\n" +
+    "                UI side of frontend, responsive design, etc. I'm also skilled with jQuery, Sass and Angular, plus UI frameworks\n" +
+    "                like Zurb Foundation and Bootstrap.</p>\n" +
     "\n" +
-    "    <p>I also wrote <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several blog\n" +
-    "        articles</a> for Big Nerd Ranch and contributed chapters to their book on HTML5 web apps. I was also\n" +
-    "        a contributor to their Mobile Design course, in addition to being BNR's designated expert in the area of web\n" +
-    "        accessibility.</p>\n" +
+    "            <p>I also wrote <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several blog\n" +
+    "                articles</a> for Big Nerd Ranch and contributed chapters to their book on HTML5 web apps. I was also\n" +
+    "                a contributor to their Mobile Design course, in addition to being BNR's designated expert in the area of web\n" +
+    "                accessibility.</p>\n" +
     "\n" +
-    "    <p>Most recently, I was senior frontend developer for MoZeus Worldwide, where I built interactive experiential\n" +
-    "        web apps for Fortune 500 companies. I led and mentored a team of frontend developers, facilitated team collaboration\n" +
-    "        and in-house training sessions. I also did a lot of R&D work to develop techniques for delivering\n" +
-    "        new and unique customer experiences.</p>\n" +
+    "            <p>Most recently, I was senior frontend developer for MoZeus Worldwide, where I built interactive experiential\n" +
+    "                web apps for Fortune 500 companies. I led and mentored a team of frontend developers, facilitated team collaboration\n" +
+    "                and in-house training sessions. I also did a lot of R&D work to develop techniques for delivering\n" +
+    "                new and unique customer experiences.</p>\n" +
     "\n" +
-    "    <p>I also do (very) occasional speaking, most recently at CSS Summit 2016,\n" +
-    "        where I gave <a href=\"https://www.slideshare.net/AtlantaJones/adventures-in-atomic-design\" target=\"_blank\">a talk on Atomic Design.</a></p>\n" +
+    "            <p>I also do (very) occasional speaking, most recently at CSS Summit 2016,\n" +
+    "                where I gave <a href=\"https://www.slideshare.net/AtlantaJones/adventures-in-atomic-design\" target=\"_blank\">a talk on Atomic Design.</a></p>\n" +
     "\n" +
-    "    <p>See more on my talks and writings <a ui-sref=\"words\">here</a>.</p>\n" +
+    "            <p>See more on my talks and writings <a ui-sref=\"words\">here</a>.</p>\n" +
+    "        </div>\n" +
+    "\n" +
+    "        <div class=\"small-12 medium-3\">\n" +
+    "            <div class=\"tricks\">\n" +
+    "                <h3>Bag of Tricks</h3>\n" +
+    "                <ul>\n" +
+    "                    <li>JavaScript</li>\n" +
+    "                    <li>jQuery</li>\n" +
+    "                    <li>Angular</li>\n" +
+    "                    <li>CSS3</li>\n" +
+    "                    <li>HTML5</li>\n" +
+    "                    <li>Canvas</li>\n" +
+    "                    <li>SASS</li>\n" +
+    "                    <li>Foundation</li>\n" +
+    "                    <li>Bootstrap</li>\n" +
+    "                    <li>Git</li>\n" +
+    "                    <li>Gulp</li>\n" +
+    "                </ul>\n" +
+    "            </div>\n" +
+    "        </div>\n" +
+    "\n" +
+    "    </div>\n" +
     "</div>")
 
 $templateCache.put("pages/home.html","\n" +
     "\n" +
     "<div class=\"paper home\">\n" +
-    "    <p>Hi, my name is Andrew Jones, and I'm what you'd call a jack-of-all-trades web developer. I've been doing this professionally for the past 20 years.</p>\n" +
+    "    <h1>Greetings!</h1>\n" +
+    "    <p>My name is Andrew Jones, and I'm what you'd call a jack-of-all-trades web developer. I've been doing this professionally for the past 20 years.</p>\n" +
     "\n" +
     "    <p>My specialty is frontend development, but I've done a lot of back-end work with PHP and mySQL.</p>\n" +
     "\n" +
@@ -604,26 +652,39 @@ $templateCache.put("pages/illustration.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
+    "\n" +
     "    <h1>Illustration</h1>\n" +
+    "    <div class=\"row align-justify\">\n" +
     "\n" +
-    "<div class=\"row\">\n" +
-    "    <div class=\"column small-12 medium-8\">\n" +
+    "        <div class=\"column small-12 medium-9 large-8\">\n" +
     "\n" +
-    "        <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
+    "            <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
     "\n" +
-    "        <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
-    "            avatars to paintings to full-size movie posters, and I'm always looking for a new artistic challenge</p>\n" +
+    "            <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
+    "                avatars to paintings to full-size movie posters, and I'm always looking for a new artistic challenge</p>\n" +
     "\n" +
-    "        <p><a href=\"https://www.behance.net/atlantajones\" target=\"_blank\">See the most up-to-date illustration portfolio here.</a></p>\n" +
+    "            <p><a href=\"https://www.behance.net/atlantajones\" target=\"_blank\">See the most up-to-date illustration portfolio here.</a></p>\n" +
+    "        </div>\n" +
+    "\n" +
+    "        <div class=\"column small-12 medium-3\">\n" +
+    "            <div class=\"tricks\">\n" +
+    "                <h3>Bag of Tricks</h3>\n" +
+    "                <ul>\n" +
+    "                    <li>Photoshop</li>\n" +
+    "                    <li>Manga Studio</li>\n" +
+    "                    <li>Wacom Cintiq</li>\n" +
+    "                    <li>Pen & Ink</li>\n" +
+    "                    <li>Prismacolor Markers</li>\n" +
+    "                    <li>Watercolors</li>\n" +
+    "                    <li>Airbrush</li>\n" +
+    "                </ul>\n" +
+    "            </div>\n" +
+    "            <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348137/Resume/art-olaf.jpg\" alt=\"Count Olaf Digital Painting\">\n" +
+    "            <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348136/Resume/art-arcadia.jpg\" alt=\"Arcade movie poster\">\n" +
+    "            <!--<img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348136/Resume/art-lyle.jpg\" alt=\"Mr Lyle from Penny Dreadful\">-->\n" +
+    "        </div>\n" +
+    "\n" +
     "    </div>\n" +
-    "\n" +
-    "    <div class=\"column small-12 medium-4\">\n" +
-    "        <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348137/Resume/art-olaf.jpg\" alt=\"Count Olaf Digital Painting\">\n" +
-    "        <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348136/Resume/art-arcadia.jpg\" alt=\"Arcade movie poster\">\n" +
-    "        <img class=\"thumbnail\" src=\"http://res.cloudinary.com/firebox/image/upload/q_70/v1489348136/Resume/art-lyle.jpg\" alt=\"Mr Lyle from Penny Dreadful\">\n" +
-    "    </div>\n" +
-    "    \n" +
-    "</div>\n" +
     "</div>")
 
 $templateCache.put("pages/projects.html","\n" +
@@ -695,30 +756,47 @@ $templateCache.put("pages/words.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
     "\n" +
-    "    <h1>Writing and Speaking</h1>\n" +
+    "    <div class=\"row align-justify\">\n" +
+    "        <h1>Writing and Speaking</h1>\n" +
     "\n" +
-    "    <p>While I'm certainly not as prolific with writing as I am with art and development, it's something I\n" +
-    "        really enjoy doing. I try to write as much as I can for my\n" +
-    "        <a href=\"http://atlantajones.com/\" target=\"_blank\">personal blog</a>, and I wrote\n" +
-    "        <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several posts</a> for Big Nerd\n" +
-    "        Ranch's (very) popular blog.</p>\n" +
+    "        <div class=\"column small-12 medium-9 large-8\">\n" +
+    "            <p>While I'm certainly not as prolific with writing as I am with art and development, it's something I\n" +
+    "                really enjoy doing. I try to write as much as I can for my\n" +
+    "                <a href=\"http://atlantajones.com/\" target=\"_blank\">personal blog</a>, and I wrote\n" +
+    "                <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several posts</a> for Big Nerd\n" +
+    "                Ranch's (very) popular blog.</p>\n" +
     "\n" +
-    "        <ul>\n" +
-    "            <li><a href=\"https://atlantajones.com/on-introverts-and-conferences/\" target=\"_blank\">On Introverts and Conferences</a></li>\n" +
-    "            <li><a href=\"https://atlantajones.com/blank-page-syndrome/\" target=\"_blank\">Regarding Blank Page Syndrome</a></li>\n" +
-    "            <li><a href=\"https://www.bignerdranch.com/blog/css-sprite-management-with-gulp/\" target=\"_blank\">CSS Sprite Management with Gulp</a> | <a href=\"https://www.bignerdranch.com/blog/css-sprite-management-with-gulp-part2/\" target=\"_blank\">Part Two</a></li>\n" +
-    "            <li><a href=\"https://www.bignerdranch.com/blog/image-optimization-with-adobe-fireworks/\" target=\"_blank\">Image Optimization with Adobe FireWorks</a></li>\n" +
-    "            <li><a href=\"https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/\" target=\"_blank\">Web Accessibility: Skip Navigation Links</a></li>\n" +
-    "            <li><a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">More articles written for Big Nerd Ranch...</a></li>\n" +
-    "        </ul>\n" +
+    "            <ul>\n" +
+    "                <li><a href=\"https://atlantajones.com/on-introverts-and-conferences/\" target=\"_blank\">On Introverts and Conferences</a></li>\n" +
+    "                <li><a href=\"https://atlantajones.com/blank-page-syndrome/\" target=\"_blank\">Regarding Blank Page Syndrome</a></li>\n" +
+    "                <li><a href=\"https://www.bignerdranch.com/blog/css-sprite-management-with-gulp/\" target=\"_blank\">CSS Sprite Management with Gulp</a> | <a href=\"https://www.bignerdranch.com/blog/css-sprite-management-with-gulp-part2/\" target=\"_blank\">Part Two</a></li>\n" +
+    "                <li><a href=\"https://www.bignerdranch.com/blog/image-optimization-with-adobe-fireworks/\" target=\"_blank\">Image Optimization with Adobe FireWorks</a></li>\n" +
+    "                <li><a href=\"https://www.bignerdranch.com/blog/web-accessibility-skip-navigation-links/\" target=\"_blank\">Web Accessibility: Skip Navigation Links</a></li>\n" +
+    "                <li><a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">More articles written for Big Nerd Ranch...</a></li>\n" +
+    "            </ul>\n" +
     "\n" +
-    "    <p>I also do the occasional tech talk: </p>\n" +
+    "            <p>I also do the occasional tech talk: </p>\n" +
     "\n" +
-    "    <ul>\n" +
-    "        <li><a href=\"https://www.slideshare.net/AtlantaJones/adventures-in-atomic-design\" target=\"_blank\">Adventures in Atomic Design</a> at\n" +
-    "            <a href=\"http://environmentsforhumans.com/2016/css-summit/\" target=\"_blank\">CSS Summit 2016</a></li>\n" +
-    "        <li><a href=\"https://youtu.be/gulNlIbmzvE\" target=\"_blank\">Regarding Blank Page Syndrome</a></li>\n" +
-    "    </ul>\n" +
+    "            <ul>\n" +
+    "                <li><a href=\"https://www.slideshare.net/AtlantaJones/adventures-in-atomic-design\" target=\"_blank\">Adventures in Atomic Design</a> at\n" +
+    "                    <a href=\"http://environmentsforhumans.com/2016/css-summit/\" target=\"_blank\">CSS Summit 2016</a></li>\n" +
+    "                <li><a href=\"https://youtu.be/gulNlIbmzvE\" target=\"_blank\">Regarding Blank Page Syndrome</a></li>\n" +
+    "            </ul>\n" +
+    "        </div>\n" +
+    "\n" +
+    "        <div class=\"small-12 medium-3\">\n" +
+    "            <div class=\"tricks\">\n" +
+    "                <h3>Bag of Tricks</h3>\n" +
+    "                <ul>\n" +
+    "                    <li>Scrivener</li>\n" +
+    "                    <li>Scapple</li>\n" +
+    "                    <li>Markdown</li>\n" +
+    "                </ul>\n" +
+    "            </div>\n" +
+    "        </div>\n" +
+    "\n" +
+    "\n" +
+    "    </div>\n" +
     "\n" +
     "</div>")
 }]);
