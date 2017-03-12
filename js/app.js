@@ -646,6 +646,8 @@ $templateCache.put("pages/home.html","\n" +
     "    <p>Click around to see my skillset and select projects.</p>\n" +
     "\n" +
     "    <p>Or <a href=\"pdf/Andrew_Jones_Resume-2017.pdf\" target=\"_blank\">click here</a> to download a PDF resume.</p>\n" +
+    "\n" +
+    "    <p>Feel free to <a href=\"https://github.com/AtlantaJones/andrewwesleyjones.com\" target=\"_blank\">view the source code of this site on Github.</a></p>\n" +
     "</div>")
 
 $templateCache.put("pages/illustration.html","\n" +
