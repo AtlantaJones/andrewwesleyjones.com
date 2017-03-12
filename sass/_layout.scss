@@ -1,0 +1,100 @@
+
+.wrapper {
+    position: relative;
+
+    @include breakpoint(large up) {
+        margin-top: 25px;
+    }
+}
+
+.page-container {
+    transform: translateX(0px);
+}
+
+.paper {
+    background: #f6f3df url('http://res.cloudinary.com/firebox/image/upload/v1489348136/Resume/bkg-paper-lines.png') no-repeat left top;;
+    box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
+    padding: 8vh 5% 5px 5%;
+    margin-top: 50px;
+    min-height: 81vh;
+    position: static;
+    width: 100%;
+    z-index: 20;
+
+    &.home {
+        padding-top: 17%;
+    }
+
+    @include breakpoint(medium up) {
+        min-height: 1020px;
+        position: absolute;
+        transform: rotate(3deg);
+
+        &.straight {
+            transform: rotate(0);
+        }
+    }
+}
+
+nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 108px;
+    width: 225px;
+    z-index: 1000;
+
+    @include breakpoint(medium up) {
+        // compensate for Velocity animations
+        // changing menu display on larger sizes
+        display: block !important;
+        opacity: 1 !important;
+        transform: translateX(0) !important;
+        top: 196px;
+        z-index: 0;
+    }
+
+    a {
+        background-color: $color-secondary;
+        color: $color-nav;
+        display: block;
+        font-size: 20px;
+        margin-bottom: 0;
+        max-height: 45px;
+        padding: 12px 0 12px 15px;
+        text-decoration: none;
+        border-bottom: 1px solid $color-nav;
+
+        @include breakpoint(medium up) {
+            border-bottom: none;
+            margin-bottom: 10px;
+        }
+
+        @include breakpoint(large up) {
+            //margin-bottom: 13px;
+        }
+
+        &:visited {
+            color: $color-nav;
+        }
+
+        &.active,
+        &:focus {
+            background-color: #da9537;
+            color: #FFF;
+        }
+    }
+}
+
+
+.nav-menu {
+    font-size: 29px;
+    position: absolute;
+    right: 27px;
+    top: 57px;
+    z-index: 1000;
+
+    @include breakpoint(medium up) {
+        display: none;
+    }
+}

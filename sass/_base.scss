@@ -1,0 +1,85 @@
+// -------------------------------------
+//   Base
+// -------------------------------------
+// ----- Base-level tags (body, p, etc.)
+// -------------------------------------
+
+html {
+    box-sizing: border-box;
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+body, html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #FFF url('http://res.cloudinary.com/firebox/image/upload/q_70/v1489348292/Resume/background.jpg') no-repeat center top;
+    color: $color-primary;
+    font-size: 1.25rem;
+
+    @include default-font;
+    position: relative;
+
+    @include breakpoint(medium up) {
+        font-size: 1.12rem;
+    }
+
+    @include breakpoint(large up) {
+        font-size: 1.375rem;
+        background-position-y: 25px;
+    }
+}
+
+h1, h2, h3, h4 {
+    @include bold-font;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3  {
+    color: #506a63;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #506a63;
+}
+
+a {
+    color: $color-secondary;
+    text-decoration: underline;
+}
+
+a:focus,
+a:visited {
+    color: $color-secondary;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.4;
+    padding-bottom: 25px;
+    margin: 0;
+
+    .home & {
+        @include breakpoint(medium up) {
+            padding-bottom: 35px;
+        }
+    }
+}
+
+ul {
+    margin-top: 0;
+}

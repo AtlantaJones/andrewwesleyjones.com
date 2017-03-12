@@ -1,0 +1,59 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Andrew Jones: Front-End Web Developer and Illustrator in the Atlanta, GA Area</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/app.css">
+    <script src="https://use.typekit.net/qns0dvy.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body ng-app="myApp" ng-controller="mainController">
+
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+
+<div class="row wrapper">
+    <div class="column">
+        <a ng-click="toggleMenu()" aria-hidden="true"><i class="fa fa-bars nav-menu"></i></a>
+        <img src="http://res.cloudinary.com/firebox/image/upload/v1489348136/Resume/logo.png" alt="Andrew Jones" class="logo">
+        <img src="http://res.cloudinary.com/firebox/image/upload/c_scale,q_70,w_360/v1489349857/Resume/avatar2.jpg" alt="Andrew Jones" class="avatar">
+
+        <nav>
+            <a ui-sref="home"         ui-sref-active="active" ng-click="closeMenu()">HOME</a>
+            <a ui-sref="frontend"     ui-sref-active="active" ng-click="closeMenu()">FRONT-END</a>
+            <a ui-sref="backend"      ui-sref-active="active" ng-click="closeMenu()">BACK-END</a>
+            <a ui-sref="projects"     ui-sref-active="active" ng-click="closeMenu()">PROJECTS</a>
+            <a ui-sref="words"        ui-sref-active="active" ng-click="closeMenu()">WORDS</a>
+            <a ui-sref="illustration" ui-sref-active="active" ng-click="closeMenu()">ART</a>
+            <a href="pdf/Andrew_Jones_Resume-2017.pdf" target="_blank" ng-click="closeMenu()">RESUME <i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+            <a ui-sref="contact"      ui-sref-active="active" ng-click="closeMenu()">CONTACT</a>
+        </nav>
+
+        <div ui-view class="page-container small-12 medium-9 medium-offset-2"></div>
+
+        <ul class="icons">
+            <li><a href="http://atlantajones.com" target="_blank"><i class="fa fa-rss-square"></i></a></li>
+            <li><a href="http://twitter.com/atlantajones" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="https://github.com/AtlantaJones/andrewwesleyjones.com" target="_blank"><i class="fa fa-github-square"></i></a></li>
+            <li><a href="https://www.behance.net/atlantajones" target="_blank"><i class="fa fa-behance-square"></i></a></li>
+            <li><a href="http://instagram.com/atlantajones" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/atlantajones" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="http://codepen.io/AtlantaJones/" target="_blank"><i class="fa fa-codepen"></i></a></li>
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
