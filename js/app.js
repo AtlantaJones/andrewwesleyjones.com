@@ -526,9 +526,9 @@ $templateCache.put("pages/backend.html","\n" +
     "<div class=\"paper\">\n" +
     "\n" +
     "<div class=\"row align-justify\">\n" +
-    "    <h1>Back-End Development</h1>\n" +
     "\n" +
     "    <div class=\"column small-12 medium-9 large-8\">\n" +
+    "        <h1>Back-End Development</h1>\n" +
     "        <p>I've been working with PHP and mySQL since about 2001. And in 2004, I built my own content management\n" +
     "            system and honed it for many years. While I was running my own freelance shop full-time, I put\n" +
     "            nearly all my clients on it, some of which are still enjoying to this day. The CMS was a wonderful learning\n" +
@@ -584,9 +584,10 @@ $templateCache.put("pages/frontend.html","\n" +
     "<div class=\"paper\">\n" +
     "\n" +
     "    <div class=\"row align-justify\">\n" +
-    "        <h1>Front-End Development</h1>\n" +
     "\n" +
     "        <div class=\"column small-12 medium-9 large-8\">\n" +
+    "            <h1>Front-End Development</h1>\n" +
+    "\n" +
     "            <p>To me, frontend development (HTML, CSS, JavaScript) is more about solving problems than anything else.\n" +
     "                I love getting my hands on a great design and figuring out interesting solutions for making them living, breathing sites and web apps.</p>\n" +
     "\n" +
@@ -653,13 +654,10 @@ $templateCache.put("pages/home.html","\n" +
 $templateCache.put("pages/illustration.html","\n" +
     "\n" +
     "<div class=\"paper\">\n" +
-    "\n" +
-    "\n" +
-    "    <h1>Illustration</h1>\n" +
     "    <div class=\"row align-justify\">\n" +
     "\n" +
     "        <div class=\"column small-12 medium-9 large-8\">\n" +
-    "\n" +
+    "            <h1>Illustration</h1>\n" +
     "            <p>While I've been a developer over 20 years now, I've been an artist my entire life.</p>\n" +
     "\n" +
     "            <p>I use multiple mediums, from digital to pencil to watercolor to airbrush. I've created everything from sketch cards to\n" +
@@ -759,9 +757,9 @@ $templateCache.put("pages/words.html","\n" +
     "<div class=\"paper\">\n" +
     "\n" +
     "    <div class=\"row align-justify\">\n" +
-    "        <h1>Writing and Speaking</h1>\n" +
     "\n" +
     "        <div class=\"column small-12 medium-9 large-8\">\n" +
+    "            <h1>Writing and Speaking</h1>\n" +
     "            <p>While I'm certainly not as prolific with writing as I am with art and development, it's something I\n" +
     "                really enjoy doing. I try to write as much as I can for my\n" +
     "                <a href=\"http://atlantajones.com/\" target=\"_blank\">personal blog</a>, and I wrote\n" +

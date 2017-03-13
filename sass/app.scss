@@ -36,10 +36,10 @@ $global-width: 1140px;
 
 .logo {
     position: absolute;
-    left: 19vw;
+    left: 17vw;
     top: 18px;
     z-index: 100;
-    width: 260px;
+    width: 80%;
 
     @include breakpoint(medium up) {
         left: 18px;
@@ -48,7 +48,6 @@ $global-width: 1140px;
     }
 
     @include breakpoint(large up) {
-        //left: 55px;
         top: 32px;
     }
 }

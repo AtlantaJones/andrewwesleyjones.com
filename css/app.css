@@ -3236,7 +3236,7 @@ ul {
 .paper {
   background: #f6f3df url("http://res.cloudinary.com/firebox/image/upload/v1489348136/Resume/bkg-paper-lines.png") no-repeat left top;
   box-shadow: 3.5px 6.062px 5px 0 rgba(0, 0, 0, 0.27);
-  padding: 8vh 5% 5px 5%;
+  padding: 14% 5% 5px 5%;
   margin-top: 50px;
   min-height: 81vh;
   position: static;
@@ -3324,10 +3324,10 @@ nav {
 
 .logo {
   position: absolute;
-  left: 19vw;
+  left: 17vw;
   top: 18px;
   z-index: 100;
-  width: 260px; }
+  width: 80%; }
   @media screen and (min-width: 40em) {
     .logo {
       left: 18px;
