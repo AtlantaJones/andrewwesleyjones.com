@@ -695,10 +695,10 @@ $templateCache.put("pages/projects.html","\n" +
     "\n" +
     "    <p>A lot of the work I've done the past few years have either been under strict NDA, or are no longer online. But here's some recent stuff I'm proud of.</p>\n" +
     "\n" +
-    "    <h2><a href=\"http://peoplesbanktheatre.com/\" target=\"_blank\">Peoples Bank Theatre Website</a></h2>\n" +
+    "    <h2><a href=\"http://pbt.fireboxstudios.com/\" target=\"_blank\">Peoples Bank Theatre Website</a></h2>\n" +
     "    <p>I've been working with a group dedicated to renovating and reopening this 1919 theatre since 1997. As they\n" +
     "        got close to their grand opening in January 2016, they were in need of a <a\n" +
-    "                href=\"http://peoplesbanktheatre.com/\" target=\"_blank\">new site</a> (I'd also built every previous\n" +
+    "                href=\"http://pbt.fireboxstudios.com/\" target=\"_blank\">new site</a> (I'd also built every previous\n" +
     "        version).</p>\n" +
     "\n" +
     "    <p>Due to the timeline, I ended up designing and building a new site in about 6 days. Built on Wordpress, I used the\n" +
