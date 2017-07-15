@@ -35,7 +35,7 @@ $templateCache.put("pages/backend.html","\n" +
     "            <ul>\n" +
     "                <li>PHP</li>\n" +
     "                <li>mySQL</li>\n" +
-    "                <li>Laravel</li>\n" +
+    "                <li>Laravel/Jigsaw</li>\n" +
     "                <li>Wordpress</li>\n" +
     "                <li>Drupal 7</li>\n" +
     "                <li>PHPStorm</li>\n" +
@@ -103,6 +103,7 @@ $templateCache.put("pages/frontend.html","\n" +
     "                    <li>JavaScript</li>\n" +
     "                    <li>jQuery</li>\n" +
     "                    <li>Angular</li>\n" +
+    "                    <li>Vue.js</li>\n" +
     "                    <li>CSS3</li>\n" +
     "                    <li>HTML5</li>\n" +
     "                    <li>Canvas</li>\n" +
@@ -198,6 +199,9 @@ $templateCache.put("pages/projects.html","\n" +
     "        to localstorage and the HTML5 application cache.</p>\n" +
     "    <p>I also built and maintained the Drupal-based CMS that acts as an API for serving wine, cocktail and other data, customized\n" +
     "        to each restaurant location.</p>\n" +
+    "    <p>You can view the live app <a href=\"http://flemingssteakhouse.com/WiNEPAD\" target=\"_blank\">here</a>. NOTE: It may take quite a while to load,\n" +
+    "    depending on your location. This is sadly because the main wine database is still coming from on old, inefficient CMS system the client\n" +
+    "    has still not migrated away from :(</p>\n" +
     "\n" +
     "    <h2><a href=\"http://www.tcarms.com/\" target=\"_blank\">TC Arms Responsive Site</a></h2>\n" +
     "    <p>While I don't endorse the subject matter, I'm supremely proud of <a href=\"http://www.tcarms.com/\" target=\"_blank\">this responsive site</a> I did almost all the frontend code on. (note: that was 3 years ago, so things may have changed)</p>\n" +
