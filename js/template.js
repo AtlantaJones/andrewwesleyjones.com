@@ -180,10 +180,31 @@ $templateCache.put("pages/projects.html","\n" +
     "\n" +
     "    <p>A lot of the work I've done the past few years have either been under strict NDA, or are no longer online. But here's some recent stuff I'm proud of.</p>\n" +
     "\n" +
+    "    <h2>Caire Medical</h2>\n" +
+    "    <p>While at Morrison Agency, I built the majority of the front end for a new site for Caire, a company that sells\n" +
+    "    oxygen equipment and supplies. </p>\n" +
+    "\n" +
+    "    <p>The project used HTML5, Sass and Bootstrap 4 to put together fully responsive prototype pages from a series of Sketch files.\n" +
+    "     Any components that required JavaScript functionality were built as modular components with the VUE.js library.</p>\n" +
+    "\n" +
+    "    <p>To start the project, I did a complete audit of all the page designs to identify all common and reusable components, and\n" +
+    "    compiled them into a component reference, complete with suggested naming conventions. I then built out each component in HTML\n" +
+    "    partials, with CSS conforming to the BEM naming system.</p>\n" +
+    "\n" +
+    "    <p>This project was all about creating page prototypes, and are not yet integrated into a live, working site. But here are a\n" +
+    "    few select pages to demonstrate features and responsiveness:\n" +
+    "        <ul>\n" +
+    "            <li><a href=\"http://chart-caire-production.herokuapp.com/\" target=\"_blank\">Homepage</a></li>\n" +
+    "            <li><a href=\"http://chart-caire-production.herokuapp.com/products/\" target=\"_blank\">Products</a></li>\n" +
+    "            <li><a href=\"http://chart-caire-production.herokuapp.com/cart/\" target=\"_blank\">Cart</a></li>\n" +
+    "            <li><a href=\"http://chart-caire-production.herokuapp.com/wizard/\" target=\"_blank\">Checkout Wizard</a></li>\n" +
+    "        </ul>\n" +
+    "    </p>\n" +
+    "\n" +
     "    <h2><a href=\"http://pbt.fireboxstudios.com/\" target=\"_blank\">Peoples Bank Theatre Website</a></h2>\n" +
     "    <p>I've been working with a group dedicated to renovating and reopening this 1919 theatre since 1997. As they\n" +
-    "        got close to their grand opening in January 2016, they were in need of a <a\n" +
-    "                href=\"http://pbt.fireboxstudios.com/\" target=\"_blank\">new site</a> (I'd also built every previous\n" +
+    "        got close to their grand opening in January 2016, they were in need of a\n" +
+    "        <a href=\"http://pbt.fireboxstudios.com/\" target=\"_blank\">new site</a> (I'd also built every previous\n" +
     "        version).</p>\n" +
     "\n" +
     "    <p>Due to the timeline, I ended up designing and building a new site in about 6 days. Built on Wordpress, I used the\n" +
