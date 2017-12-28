@@ -539,9 +539,8 @@ $templateCache.put("pages/backend.html","\n" +
     "            Laravel. I'm also experienced at building sites with Drupal 7, including those with RESTful web\n" +
     "            services that serve separate front-ends. I also build smaller sites with Wordpress, coupled with the Timber framework for custom theming.</p>\n" +
     "\n" +
-    "        <p>One of my upcoming personal projects will be a couple tools aimed at artists, to make it easier to list and\n" +
-    "            sell custom commissions, as well as a web app to make managing reference photos easier. These will likely be made\n" +
-    "            with a combination of Laravel and Angular. </p>\n" +
+    "        <p>While I'm very comfortable working with PHP, I consider myself first and foremost a front end developer. I'm happy to assist\n" +
+    "        on the back end where needed, but prefer to focus on the UI side these days.</p>\n" +
     "    </div>\n" +
     "\n" +
     "\n" +
@@ -589,22 +588,19 @@ $templateCache.put("pages/frontend.html","\n" +
     "            <h1>Front-End Development</h1>\n" +
     "\n" +
     "            <p>To me, frontend development (HTML, CSS, JavaScript) is more about solving problems than anything else.\n" +
-    "                I love getting my hands on a great design and figuring out interesting solutions for making them living, breathing sites and web apps.</p>\n" +
+    "                I love getting my hands on a great design and figuring out interesting solutions for making them living,\n" +
+    "                breathing (accessible) sites and web apps.</p>\n" +
     "\n" +
     "            <p>I was previously a frontend dev at <a href=\"http://bignerdranch.com\" target=\"_blank\">Big Nerd Ranch</a>\n" +
-    "                building web apps with HTML5, CSS3 and JavaScript. I worked on various projects, focusing on the visual\n" +
-    "                UI side of frontend, responsive design, etc. I'm also skilled with jQuery, Sass and Angular, plus UI frameworks\n" +
-    "                like Zurb Foundation and Bootstrap.</p>\n" +
+    "                building web apps with HTML5, CSS3 and JavaScript. I also wrote\n" +
+    "                <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several blog\n" +
+    "                articles</a> for BNR and was their designated expert in the area of web accessibility.</p>\n" +
     "\n" +
-    "            <p>I also wrote <a href=\"https://www.bignerdranch.com/about/the-team/andrew-jones/\" target=\"_blank\">several blog\n" +
-    "                articles</a> for Big Nerd Ranch and contributed chapters to their book on HTML5 web apps. I was also\n" +
-    "                a contributor to their Mobile Design course, in addition to being BNR's designated expert in the area of web\n" +
-    "                accessibility.</p>\n" +
-    "\n" +
-    "            <p>Most recently, I was senior frontend developer for MoZeus Worldwide, where I built interactive experiential\n" +
-    "                web apps for Fortune 500 companies. I led and mentored a team of frontend developers, facilitated team collaboration\n" +
-    "                and in-house training sessions. I also did a lot of R&D work to develop techniques for delivering\n" +
-    "                new and unique customer experiences.</p>\n" +
+    "            <p>Most recently, I've been at If/Then, where I've built VUE.js components in support of large Drupal 8 sites.\n" +
+    "                I've also performed web component accessibility reviews for major brands like Coca-Cola, with\n" +
+    "                recommendations on how to mediate compliance issues. I also contribute to React components and front end\n" +
+    "                development for National Geographic’s CMS platform.\n" +
+    "            </p>\n" +
     "\n" +
     "            <p>I also do (very) occasional speaking, most recently at CSS Summit 2016,\n" +
     "                where I gave <a href=\"https://www.slideshare.net/AtlantaJones/adventures-in-atomic-design\" target=\"_blank\">a talk on Atomic Design.</a></p>\n" +
@@ -620,6 +616,7 @@ $templateCache.put("pages/frontend.html","\n" +
     "                    <li>jQuery</li>\n" +
     "                    <li>Angular</li>\n" +
     "                    <li>Vue.js</li>\n" +
+    "                    <li>React</li>\n" +
     "                    <li>CSS3</li>\n" +
     "                    <li>HTML5</li>\n" +
     "                    <li>Canvas</li>\n" +
@@ -639,15 +636,15 @@ $templateCache.put("pages/home.html","\n" +
     "\n" +
     "<div class=\"paper home\">\n" +
     "    <h1>Greetings!</h1>\n" +
-    "    <p>My name is Andrew Jones, and I'm what you'd call a jack-of-all-trades web developer. I've been doing this professionally for the past 20 years.</p>\n" +
+    "    <p>My name is Andrew Jones, and I'm what you'd call a jack-of-all-trades web developer. I've been doing this professionally for the past 20+ years.</p>\n" +
     "\n" +
-    "    <p>My specialty is frontend development, but I've done a lot of back-end work with PHP and mySQL.</p>\n" +
+    "    <p>My specialty is frontend development, but I have some experience with PHP and mySQL.</p>\n" +
     "\n" +
-    "    <p>I'm looking for a casual atmosphere, working with like-minded geeks dedicated to building cool products and perfecting their craft. I believe in code as art, and I sweat the details. I'm drawn to working environments where people genuinely love what they do and care that it's done right.</p>\n" +
+    "    <p>My ideal gig is to work with developers and designers that are passionate about creating, building and improving web sites and apps for small to medium-sized businesses and organizations. I believe in code as art, and I sweat the details. I'm drawn to working environments where people genuinely love what they do and care that it's done right.</p>\n" +
     "\n" +
     "    <p>Click around to see my skillset and select projects.</p>\n" +
     "\n" +
-    "    <p>Or <a href=\"pdf/Andrew_Jones_Resume-2017.pdf\" target=\"_blank\">click here</a> to download a PDF resume.</p>\n" +
+    "    <p>Or <a href=\"pdf/Andrew_Jones_Resume-2018.pdf\" target=\"_blank\">click here</a> to download a PDF resume.</p>\n" +
     "\n" +
     "    <p>Feel free to <a href=\"https://github.com/AtlantaJones/andrewwesleyjones.com\" target=\"_blank\">view the source code of this site on Github.</a></p>\n" +
     "</div>")
@@ -672,6 +669,7 @@ $templateCache.put("pages/illustration.html","\n" +
     "                <h3>Bag of Tricks</h3>\n" +
     "                <ul>\n" +
     "                    <li>Photoshop</li>\n" +
+    "                    <li>Adobe XD</li>\n" +
     "                    <li>Manga Studio</li>\n" +
     "                    <li>Wacom Cintiq</li>\n" +
     "                    <li>Pen & Ink</li>\n" +
@@ -694,7 +692,8 @@ $templateCache.put("pages/projects.html","\n" +
     "\n" +
     "    <h1>Web Dev Projects</h1>\n" +
     "\n" +
-    "    <p>A lot of the work I've done the past few years have either been under strict NDA, or are no longer online. But here's some recent stuff I'm proud of.</p>\n" +
+    "    <p>A lot of the work I've done the past few years have either been under strict NDA, are no longer online, or no longer reflect my\n" +
+    "        current skillset. But here's some stuff I'm proud of.</p>\n" +
     "\n" +
     "    <h2>Caire Medical</h2>\n" +
     "    <p>While at Morrison Agency, I built the majority of the front end for a new site for Caire, a company that sells\n" +
@@ -716,6 +715,11 @@ $templateCache.put("pages/projects.html","\n" +
     "            <li><a href=\"http://chart-caire-production.herokuapp.com/wizard/\" target=\"_blank\">Checkout Wizard</a></li>\n" +
     "        </ul>\n" +
     "    </p>\n" +
+    "\n" +
+    "    <h2><a href=\"http://frighteneering.com/\" target=\"_blank\">Frighteneering.com</a></h2>\n" +
+    "    <p>A personal project, this site started out on the Ghost CMS platform. I didn't like Ghost that much, but loved the\n" +
+    "    theme I'd bought for it. So I ported it to a custom Wordpress theme using the Timber framework, and converted the CSS\n" +
+    "    to SASS and JavaScript to ES6. </p>\n" +
     "\n" +
     "    <h2><a href=\"http://pbt.fireboxstudios.com/\" target=\"_blank\">Peoples Bank Theatre Website</a></h2>\n" +
     "    <p>I've been working with a group dedicated to renovating and reopening this 1919 theatre since 1997. As they\n" +
